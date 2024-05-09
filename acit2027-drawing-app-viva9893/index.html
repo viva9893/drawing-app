@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vsiewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+   
+   
+       
+
+
+   
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Canvas -->
+        <div class="can item1">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <!-- Menu and Functionality Box -->
+        <div class="item2">
+            <!-- Pen Color -->
+            <div class="reck">
+            <div class="pen">
+                <label for="pen">Pen Color:</label>
+                <input type="color" id="pen" value="#000000">
+            </div>
+        </div>
+
+            <!-- Brush Size -->
+            <div class="brush">
+                <label for="brushSize">Brush Size:</label>
+                <input type="range" id="brushSize" min="1" max="50" value="5">
+            </div>
+
+            <!-- Clear Canvas Button -->
+            <div class="clearButton">
+                <button id="clearButton" class="btn b-2">Clear Canvas</button>
+            </div>
+
+            <!-- Save Drawing Button -->
+            <div class="saveButton">
+                <button id="save" class="btn b-2">Save Drawing</button>
+            </div>
+     <!-- Go Back Buttton -->
+     <div class="goBack">
+        <button id="goBack" class="btn b-3">Undo</button>
+        </div>
+    
+        </div>
+        
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
